@@ -208,7 +208,7 @@ export default function Index() {
           </FadeIn>
           <div className="grid md:grid-cols-3 gap-8">
             {services.map((s, i) => (
-              <FadeIn key={s.hours} delay={i * 0.12}>
+              <FadeIn key={s.title} delay={i * 0.12}>
                 <div
                   className={`relative rounded-3xl p-8 flex flex-col h-full transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl ${
                     s.highlight
@@ -224,9 +224,7 @@ export default function Index() {
                   <div className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-6 ${s.highlight ? "bg-white/20" : "bg-lawn-100"}`}>
                     <Icon name={s.icon} fallback="CircleAlert" size={24} className={s.highlight ? "text-white" : "text-lawn-600"} />
                   </div>
-                  <div className={`text-sm font-semibold tracking-widest uppercase mb-2 ${s.highlight ? "text-lawn-200" : "text-lawn-500"}`}>
-                    {s.hours} {s.hours === 1 ? "Hour" : "Hours"}
-                  </div>
+
                   <div className={`font-display text-5xl font-black mb-1 ${s.highlight ? "text-white" : "text-lawn-900"}`}>
                     {s.price}
                   </div>
