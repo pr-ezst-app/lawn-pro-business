@@ -304,7 +304,7 @@ export default function Index() {
                 <div className="space-y-5">
                   {[
                     { icon: "MapPin", label: "Location", val: "Stratford, Ontario, Canada" },
-                    { icon: "Phone", label: "Phone", val: "226-989-6683" },
+                    { icon: "Phone", label: "Phone", val: "226-989-6683 / 226-386-0687" },
                     { icon: "Mail", label: "Email", val: "Insert Email Address" },
                     { icon: "Clock", label: "Working Hours", val: "Mon – Sat: 8:00 AM – 6:00 PM" },
                   ].map((item) => (
