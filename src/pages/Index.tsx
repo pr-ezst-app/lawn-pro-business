@@ -37,25 +37,33 @@ const services = [
   {
     hours: 1,
     price: "$30",
-    title: "Basic Service",
-    desc: "Basic mowing & clearing of your lawn or yard area.",
+    title: "Small Yard Mowing",
+    desc: "Full mowing for small yards — clean, quick, and thorough.",
     icon: "Leaf",
     highlight: false,
   },
   {
     hours: 2,
-    price: "$60",
-    title: "Premium Service",
-    desc: "Full mowing, edge trimming, and debris cleanup.",
+    price: "$40",
+    title: "Decent Sized Lawn",
+    desc: "Full mowing for decent sized lawns, leaving your yard looking great.",
     icon: "Trees",
     highlight: true,
   },
   {
     hours: 3,
-    price: "$90",
-    title: "Complete Package",
-    desc: "Complete cleaned yard package with full debris removal.",
+    price: "$60",
+    title: "Complete Package – Small",
+    desc: "Full cleanup: edge trimming, full mowing, grass cleanup & more for small lawns.",
     icon: "Sprout",
+    highlight: false,
+  },
+  {
+    hours: 4,
+    price: "$85–$100",
+    title: "Complete Package – Large",
+    desc: "Full cleanup package for big lawns: edge trimming, full mowing, grass cleanup & more.",
+    icon: "TreePine",
     highlight: false,
   },
 ];
@@ -337,9 +345,10 @@ export default function Index() {
                 <div>
                   <label className="block text-lawn-700 text-sm font-medium mb-1">Service Needed</label>
                   <select className="w-full border border-lawn-200 rounded-xl px-4 py-3 text-lawn-900 focus:outline-none focus:ring-2 focus:ring-lawn-400 focus:border-transparent transition bg-white">
-                    <option>1 Hour – Basic Mowing ($30)</option>
-                    <option>2 Hours – Premium Mowing ($60)</option>
-                    <option>3 Hours – Complete Package ($90)</option>
+                    <option>Small Yard Mowing ($30)</option>
+                    <option>Decent Sized Lawn Mowing ($40)</option>
+                    <option>Complete Package – Small Lawn ($60)</option>
+                    <option>Complete Package – Large Lawn ($85–$100)</option>
                   </select>
                 </div>
                 <div>
