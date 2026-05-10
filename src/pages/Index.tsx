@@ -303,8 +303,8 @@ export default function Index() {
                 <h3 className="font-display text-2xl font-black text-lawn-900 mb-6">LAWN PRO</h3>
                 <div className="space-y-5">
                   {[
-                    { icon: "MapPin", label: "Location", val: "Your Country / City" },
-                    { icon: "Phone", label: "Phone", val: "Insert Phone Number" },
+                    { icon: "MapPin", label: "Location", val: "Stratford, Ontario, Canada" },
+                    { icon: "Phone", label: "Phone", val: "226-989-6683" },
                     { icon: "Mail", label: "Email", val: "Insert Email Address" },
                     { icon: "Clock", label: "Working Hours", val: "Mon – Sat: 8:00 AM – 6:00 PM" },
                   ].map((item) => (
