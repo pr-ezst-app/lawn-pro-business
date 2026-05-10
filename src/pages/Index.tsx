@@ -306,7 +306,8 @@ export default function Index() {
                     { icon: "MapPin", label: "Location", val: "Stratford, Ontario, Canada" },
                     { icon: "Phone", label: "Phone", val: "226-989-6683 / 226-386-0687" },
                     { icon: "Mail", label: "Email", val: "mrlawnpro@hotmail.com" },
-                    { icon: "Clock", label: "Working Hours", val: "Mon – Sat: 8:00 AM – 6:00 PM" },
+                    { icon: "Clock", label: "Mon – Fri", val: "4:00 PM – 7:00 PM" },
+                    { icon: "Phone", label: "Sat – Sun", val: "Contact us to schedule" },
                   ].map((item) => (
                     <div key={item.label} className="flex gap-4 items-center">
                       <div className="w-10 h-10 rounded-xl bg-lawn-100 flex items-center justify-center flex-shrink-0">
