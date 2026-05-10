@@ -54,7 +54,7 @@ const services = [
     hours: 3,
     price: "$90",
     title: "Complete Package",
-    desc: "Complete cleaned forest & yard package with full debris removal.",
+    desc: "Complete cleaned yard package with full debris removal.",
     icon: "Sprout",
     highlight: false,
   },
@@ -62,7 +62,7 @@ const services = [
 
 const whyUs = [
   { icon: "BadgeCheck", title: "Professional Care", desc: "Detailed, precise work on every property we touch." },
-  { icon: "TreePine", title: "Clean Forest Service", desc: "Specialized clearing of undergrowth, deadwood, and debris." },
+  { icon: "TreePine", title: "Clean Yard Service", desc: "Specialized clearing of undergrowth, deadwood, and debris." },
   { icon: "Clock", title: "Reliable Service", desc: "We show up on time, every time — guaranteed." },
 ];
 
@@ -125,7 +125,7 @@ export default function Index() {
             LAWN PRO
           </h1>
           <p className="text-white/80 text-xl md:text-2xl font-light mb-4" style={{ animation: "fade-in 0.7s ease 0.25s both" }}>
-            Clean Forest & Reliable Lawn Care
+            Clean Yard & Reliable Lawn Care
           </p>
           <p className="text-white/60 text-base max-w-xl mx-auto mb-10" style={{ animation: "fade-in 0.7s ease 0.35s both" }}>
             Bringing order to nature, one yard at a time.
